@@ -15,10 +15,12 @@ public class MainPage extends PageObject {
     private WebElementFacade searchButton;
 
     public void enterSearchInput(String keyword) {
+        element(searchInput).waitUntilVisible();
         searchInput.type(keyword);
     }
 
     public void searchButtonClick() {
+        element(searchButton).waitUntilVisible();
         searchButton.click();
     }
 }

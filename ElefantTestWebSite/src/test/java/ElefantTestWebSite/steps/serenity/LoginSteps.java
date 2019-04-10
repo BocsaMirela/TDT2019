@@ -15,7 +15,7 @@ public class LoginSteps extends ScenarioSteps {
     LoginPage loginPage;
 
     @Step
-    public void navigateTo(String url){
+    public void navigateTo(String url) {
         getDriver().navigate().to(url);
     }
 
@@ -36,9 +36,9 @@ public class LoginSteps extends ScenarioSteps {
 
     @StepGroup
     public void loginSteps(String email, String password) {
-            entersEmail(email);
-            entersPassword(password);
-            login();
+        entersEmail(email);
+        entersPassword(password);
+        login();
     }
 
     @Step
@@ -46,14 +46,17 @@ public class LoginSteps extends ScenarioSteps {
         loginPage.open();
     }
 
+    @Step
     public void shouldPasswordBeRead() {
         assertThat(loginPage.getPasswordBorderColor().toLowerCase(), Matchers.containsString(RED_BORDER_COLOR));
     }
 
+    @Step
     public void shouldEmailBeRead() {
         assertThat(loginPage.getEmailBorderColor().toLowerCase(), Matchers.containsString(RED_BORDER_COLOR));
     }
 
+    @Step
     public void shouldShowInvalidEmailOrPass(String errorMessage) {
         shouldEmailBeRead();
         shouldPasswordBeRead();

@@ -23,7 +23,7 @@ public class SearchQuickTests {
     public void searchingByEmptyString() {
         searchSteps.isTheHomePage();
         searchSteps.looks_for("");
-        searchSteps.shouldBeMainPage("Și ce mai citim?","îmbogățește-ți colecția");
+        searchSteps.shouldBeMainPage("Și ce mai citim?", "îmbogățește-ți colecția");
 
     }
 
@@ -31,7 +31,7 @@ public class SearchQuickTests {
     public void searchingByHugeString() {
         searchSteps.isTheHomePage();
         searchSteps.looks_for("aaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
-        searchSteps.shouldSeeNoSearchContent("Ups","Nici un produs gasit.");
+        searchSteps.shouldSeeNoSearchContent("Ups", "Nici un produs gasit.");
 
     }
 

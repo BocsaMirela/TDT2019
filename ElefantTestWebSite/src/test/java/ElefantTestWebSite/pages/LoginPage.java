@@ -18,8 +18,7 @@ public class LoginPage extends PageObject {
     @FindBy(id = "login_classic")
     private WebElementFacade loginButton;
 
-    public void enterEmailInput(String keyword)
-    {
+    public void enterEmailInput(String keyword) {
         element(email).waitUntilVisible();
         email.type(keyword);
     }
@@ -45,7 +44,7 @@ public class LoginPage extends PageObject {
     }
 
     public String getInvalidAccountMessage() {
-        WebElementFacade webElement=find(By.cssSelector("div[class='col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 errors']"));
+        WebElementFacade webElement = find(By.cssSelector("div[class='col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 errors']"));
         return webElement.getText();
     }
 }

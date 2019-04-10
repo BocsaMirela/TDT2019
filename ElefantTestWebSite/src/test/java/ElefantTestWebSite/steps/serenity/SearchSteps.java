@@ -14,12 +14,13 @@ public class SearchSteps extends ScenarioSteps {
     SearchResultPage searchResultPage;
 
     @Step
-    public void navigateTo(String url){
+    public void navigateTo(String url) {
         getDriver().navigate().to(url);
     }
+
     @Step
-    public void openSearchResultPage(String searchString){
-        String url="http://www.elefant.ro/search?query="+searchString;
+    public void openSearchResultPage(String searchString) {
+        String url = "http://www.elefant.ro/search?query=" + searchString;
         searchResultPage.openUrl(url);
     }
 
@@ -40,14 +41,15 @@ public class SearchSteps extends ScenarioSteps {
 
     @Step
     public void shouldSeeSearchContent(String title) {
-        assertThat(searchResultPage.getSearchContent(),Matchers.everyItem(Matchers.containsString(title)));
+        assertThat(searchResultPage.getSearchContent(), Matchers.everyItem(Matchers.containsString(title)));
     }
 
     @Step
-    public void shouldSeeNoSearchContent(String title,String subtitle) {
-        assertThat(searchResultPage.getTitle().toLowerCase(),Matchers.containsString(title.toLowerCase()));
-        assertThat(searchResultPage.getSearchNoContentMessage().toLowerCase(),Matchers.containsString(subtitle.toLowerCase()));
+    public void shouldSeeNoSearchContent(String title, String subtitle) {
+        assertThat(searchResultPage.getTitle().toLowerCase(), Matchers.containsString(title.toLowerCase()));
+        assertThat(searchResultPage.getSearchNoContentMessage().toLowerCase(), Matchers.containsString(subtitle.toLowerCase()));
     }
+
     @Step
     public void shouldBeMainPage(String title, String subtitle) {
         assertThat(searchResultPage.getAddTitle().toLowerCase(), Matchers.containsString(title.toLowerCase()));

@@ -21,6 +21,9 @@ public class MainPage extends PageObject {
     @FindBy(css = "#navbar-1 > li:nth-child(4) > a")
     private WebElementFacade tabMenuItemApaDeParfum;
 
+    @FindBy(css = "body > div.container > header > div:nth-child(1) > div.no-gutter-left-xs.col-xs-4.col-sm-offset-4.col-sm-5.col-md-offset-0.col-md-3.col-md-push-6 > div.header-shopping-cart.header-loaded > div.header-cart-icon")
+    private WebElementFacade cartButton;
+
     public void enterSearchInput(String keyword) {
         element(searchInput).waitUntilVisible();
         searchInput.type(keyword);
@@ -37,8 +40,13 @@ public class MainPage extends PageObject {
     }
 
     public void tabMenuItemApaDeParfumClick() {
-//        element(tabMenuItemApaDeParfum).waitUntilVisible();
+        element(tabMenuItemApaDeParfum).waitUntilVisible();
         tabMenuItemApaDeParfum.click();
+    }
+
+    public void cartButtonClick() {
+        element(cartButton).waitUntilVisible();
+        cartButton.click();
     }
 
     public String getExpendedTabMenuValue() {
@@ -49,5 +57,10 @@ public class MainPage extends PageObject {
     public String getExpendedTabMenuColor() {
         WebElementFacade webElement = find(By.xpath("//*[@id=\"navbar-collapse-grid\"]/ul/li[1]/a"));
         return webElement.getCssValue("background-color");
+    }
+
+    public String getCartNumberValue() {
+        WebElementFacade webElement = find(By.id("cart_count"));
+        return webElement.getText();
     }
 }

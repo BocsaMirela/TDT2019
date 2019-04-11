@@ -52,8 +52,8 @@ public class SearchSteps extends ScenarioSteps {
 
     @Step
     public void shouldBeMainPage(String title, String subtitle) {
-        assertThat(searchResultPage.getAddTitle().toLowerCase(), Matchers.containsString(title.toLowerCase()));
-        assertThat(searchResultPage.getAddSubtitle().toLowerCase(), Matchers.containsString(subtitle.toLowerCase()));
+        assertThat(searchResultPage.getAddTitle().toLowerCase(), Matchers.not(Matchers.isEmptyString()));
+        assertThat(searchResultPage.getAddSubtitle().toLowerCase(), Matchers.not(Matchers.isEmptyString()));
     }
 
     @Step

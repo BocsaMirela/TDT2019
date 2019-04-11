@@ -5,6 +5,7 @@ import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 
 @DefaultUrl("http://www.elefant.ro/autentificare")
 public class LoginPage extends PageObject {
@@ -29,7 +30,8 @@ public class LoginPage extends PageObject {
     }
 
     public void loginButtonClick() {
-        element(loginButton).waitUntilVisible();
+//        element(loginButton).waitUntilVisible();
+        ((JavascriptExecutor) getDriver()).executeScript("window.scrollBy(0,400)");
         loginButton.click();
     }
 

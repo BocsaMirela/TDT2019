@@ -5,6 +5,7 @@ import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 
 @DefaultUrl("http://www.elefant.ro/")
 public class MainPage extends PageObject {
@@ -60,6 +61,7 @@ public class MainPage extends PageObject {
     }
 
     public String getCartNumberValue() {
+        ((JavascriptExecutor) getDriver()).executeScript("window.scrollBy(400,0)");
         WebElementFacade webElement = find(By.id("cart_count"));
         return webElement.getText();
     }

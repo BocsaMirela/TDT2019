@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b940074f-fd5b-4d50-8c2d-d0ea9ae924d7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/ElefantTestWebSite/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ElefantTestWebSite/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ElefantTestWebSite/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ElefantTestWebSite/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/42fb712d71ad67e6de5bea3820c8b9e8a2e8e2ff6e4d442e4b7f9e19eb3e1dcc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/42fb712d71ad67e6de5bea3820c8b9e8a2e8e2ff6e4d442e4b7f9e19eb3e1dcc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/42fb712d71ad67e6de5bea3820c8b9e8a2e8e2ff6e4d442e4b7f9e19eb3e1dcc.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/42fb712d71ad67e6de5bea3820c8b9e8a2e8e2ff6e4d442e4b7f9e19eb3e1dcc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/42fb712d71ad67e6de5bea3820c8b9e8a2e8e2ff6e4d442e4b7f9e19eb3e1dcc_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/42fb712d71ad67e6de5bea3820c8b9e8a2e8e2ff6e4d442e4b7f9e19eb3e1dcc_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/7b3bdb03eebb9cb93d254ad1037c5fae9c7b443ed1c35a4b103e0aa76a4aa8f9.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7b3bdb03eebb9cb93d254ad1037c5fae9c7b443ed1c35a4b103e0aa76a4aa8f9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/7b3bdb03eebb9cb93d254ad1037c5fae9c7b443ed1c35a4b103e0aa76a4aa8f9.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7b3bdb03eebb9cb93d254ad1037c5fae9c7b443ed1c35a4b103e0aa76a4aa8f9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/7b3bdb03eebb9cb93d254ad1037c5fae9c7b443ed1c35a4b103e0aa76a4aa8f9_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7b3bdb03eebb9cb93d254ad1037c5fae9c7b443ed1c35a4b103e0aa76a4aa8f9_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-7b3bdb03eebb9cb93d254ad1037c5fae9c7b443ed1c35a4b103e0aa76a4aa8f9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-7b3bdb03eebb9cb93d254ad1037c5fae9c7b443ed1c35a4b103e0aa76a4aa8f9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ElefantTestWebSite/features/search/quickTests/RunQuickTests.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,10 +25,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/features/search/quickTests/SearchQuickTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="54" column="5" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="63" column="79" selection-start-line="63" selection-start-column="79" selection-end-line="63" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -26,7 +48,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/pages/SearchResultPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
+            <state relative-caret-position="306">
               <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
             </state>
           </provider>
@@ -35,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/steps/serenity/AddToCartSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-224">
-              <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+            <state relative-caret-position="101">
+              <caret line="64" column="36" lean-forward="true" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
               <folding>
                 <element signature="e#647#648#0" expanded="true" />
                 <element signature="e#678#679#0" expanded="true" />
@@ -46,10 +68,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.8.3/serenity-core-1.8.3.jar!/net/thucydides/core/steps/StepInterceptor.class">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/features/search/quickTests/TabMenuQuickTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="68" selection-start-line="68" selection-end-line="68" />
+            <state relative-caret-position="152">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -58,16 +80,16 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/pages/TabMenuResultPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/features/search/quickTests/CartQuickTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="135">
+              <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -75,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/pages/ElementPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="15" column="46" selection-start-line="15" selection-end-line="16" />
+            <state relative-caret-position="238">
+              <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -84,16 +106,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="33" column="83" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
+            <state relative-caret-position="200">
+              <caret line="33" column="51" lean-forward="true" selection-start-line="33" selection-end-line="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/features/search/quickTests/LoginQuickTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
+            <state relative-caret-position="255">
               <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
@@ -131,12 +153,12 @@
         <option value="$PROJECT_DIR$/src/test/java/ElefantTestWebSite/features/search/quickTests/TabMenuQuickTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/ElefantTestWebSite/steps/serenity/SearchSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/ElefantTestWebSite/pages/CartPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ElefantTestWebSite/pages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ElefantTestWebSite/steps/serenity/AddToCartSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/ElefantTestWebSite/pages/ElementPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/ElefantTestWebSite/features/search/quickTests/CartQuickTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/ElefantTestWebSite/features/search/quickTests/RunQuickTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/ElefantTestWebSite/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ElefantTestWebSite/pages/MainPage.java" />
       </list>
     </option>
   </component>
@@ -147,9 +169,9 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-11" />
-    <option name="width" value="980" />
+    <option name="width" value="806" />
     <option name="height" value="1031" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -158,6 +180,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,27 +242,17 @@
               <item name="ElefantTestWebSite" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ElefantTestWebSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ElefantTestWebSite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ElefantTestWebSite" type="462c0819:PsiDirectoryNode" />
-              <item name="serenity" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554970013277" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555875237022" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -265,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RunQuickTests.runQuickTests">
+  <component name="RunManager" selected="JUnit.SearchQuickTests">
     <configuration name="CartQuickTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ElefantTestWebSite" />
       <extension name="coverage">
@@ -280,22 +293,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CartQuickTests.addItemToCartAndImediatellyOpenCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ElefantTestWebSite" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ElefantTestWebSite.features.search.quickTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ElefantTestWebSite.features.search.quickTests" />
-      <option name="MAIN_CLASS_NAME" value="ElefantTestWebSite.features.search.quickTests.CartQuickTests" />
-      <option name="METHOD_NAME" value="addItemToCartAndImediatellyOpenCart" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LoginQuickTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ElefantTestWebSite" />
       <extension name="coverage">
@@ -306,20 +303,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="ElefantTestWebSite.features.search.quickTests" />
       <option name="MAIN_CLASS_NAME" value="ElefantTestWebSite.features.search.quickTests.LoginQuickTests" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RunQuickTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ElefantTestWebSite" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ElefantTestWebSite.features.search.quickTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ElefantTestWebSite.features.search.quickTests" />
-      <option name="MAIN_CLASS_NAME" value="ElefantTestWebSite.features.search.quickTests.RunQuickTests" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -340,13 +323,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SearchQuickTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ElefantTestWebSite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ElefantTestWebSite.features.search.quickTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ElefantTestWebSite.features.search.quickTests" />
+      <option name="MAIN_CLASS_NAME" value="ElefantTestWebSite.features.search.quickTests.SearchQuickTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TabMenuQuickTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ElefantTestWebSite" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ElefantTestWebSite.features.search.quickTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ElefantTestWebSite.features.search.quickTests" />
+      <option name="MAIN_CLASS_NAME" value="ElefantTestWebSite.features.search.quickTests.TabMenuQuickTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RunQuickTests.runQuickTests" />
-        <item itemvalue="JUnit.LoginQuickTests" />
-        <item itemvalue="JUnit.RunQuickTests" />
+        <item itemvalue="JUnit.SearchQuickTests" />
         <item itemvalue="JUnit.CartQuickTests" />
-        <item itemvalue="JUnit.CartQuickTests.addItemToCartAndImediatellyOpenCart" />
+        <item itemvalue="JUnit.LoginQuickTests" />
+        <item itemvalue="JUnit.TabMenuQuickTests" />
+        <item itemvalue="JUnit.RunQuickTests.runQuickTests" />
       </list>
     </recent_temporary>
   </component>
@@ -361,32 +372,13 @@
       <option name="presentableId" value="Default" />
       <updated>1554922316968</updated>
       <workItem from="1554922320828" duration="8922000" />
-      <workItem from="1554959095987" duration="7969000" />
+      <workItem from="1554959095987" duration="8203000" />
+      <workItem from="1554970697208" duration="35000" />
+      <workItem from="1555873474979" duration="2092000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CartQuickTests_addItemToCartAndImediatelyOpenCart - 2019.04.11 at 10h 47m 43s.xml">
-      <configuration name="CartQuickTests.addItemToCartAndImediatelyOpenCart" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CartQuickTests_addItemToCartAndImediatelyOpenCart - 2019.04.11 at 10h 48m 39s.xml">
-      <configuration name="CartQuickTests.addItemToCartAndImediatelyOpenCart" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CartQuickTests_addItemToCartAndImediatellyOpenCart - 2019.04.11 at 10h 50m 08s.xml">
-      <configuration name="CartQuickTests.addItemToCartAndImediatellyOpenCart" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CartQuickTests - 2019.04.11 at 10h 51m 36s.xml">
-      <configuration name="CartQuickTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunQuickTests - 2019.04.11 at 11h 02m 39s.xml">
-      <configuration name="RunQuickTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RunQuickTests_runQuickTests - 2019.04.11 at 11h 03m 05s.xml">
-      <configuration name="RunQuickTests.runQuickTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LoginQuickTests - 2019.04.11 at 11h 04m 08s.xml">
-      <configuration name="LoginQuickTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LoginQuickTests - 2019.04.11 at 11h 04m 49s.xml">
       <configuration name="LoginQuickTests" configurationId="JUnit" />
     </history-entry>
@@ -396,15 +388,35 @@
     <history-entry file="RunQuickTests_runQuickTests - 2019.04.11 at 11h 06m 23s.xml">
       <configuration name="RunQuickTests.runQuickTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SearchQuickTests - 2019.04.11 at 11h 10m 54s.xml">
+      <configuration name="SearchQuickTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TabMenuQuickTests - 2019.04.11 at 11h 11m 41s.xml">
+      <configuration name="TabMenuQuickTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TabMenuQuickTests - 2019.04.21 at 22h 20m 00s.xml">
+      <configuration name="TabMenuQuickTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginQuickTests - 2019.04.21 at 22h 21m 16s.xml">
+      <configuration name="LoginQuickTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CartQuickTests - 2019.04.21 at 22h 22m 06s.xml">
+      <configuration name="CartQuickTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CartQuickTests - 2019.04.21 at 22h 23m 18s.xml">
+      <configuration name="CartQuickTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SearchQuickTests - 2019.04.21 at 22h 27m 27s.xml">
+      <configuration name="SearchQuickTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16891000" />
+    <option name="totallyTimeSpent" value="19252000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="537" height="687" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23157895" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.6205451" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -413,7 +425,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19182949" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34954956" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -427,7 +439,7 @@
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.065587044" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.26153848" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
@@ -467,27 +479,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/features/search/quickTests/TabMenuQuickTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/steps/serenity/LoginSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/features/search/quickTests/SearchQuickTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -522,41 +517,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/steps/serenity/AddToCartSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224">
-          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
-          <folding>
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/pages/ElementPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="15" column="46" selection-start-line="15" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="33" column="83" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/pages/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="54" column="5" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="54" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/features/search/quickTests/RunQuickTests.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/pages/SearchResultPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
+        <state relative-caret-position="306">
           <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
         </state>
       </provider>
@@ -564,31 +528,70 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/pages/TabMenuResultPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/features/search/quickTests/LoginQuickTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/features/search/quickTests/TabMenuQuickTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="152">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/features/search/quickTests/RunQuickTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/pages/ElementPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="238">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/features/search/quickTests/CartQuickTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="30" column="34" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/steps/serenity/AddToCartSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="64" column="36" lean-forward="true" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+          <folding>
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="33" column="51" lean-forward="true" selection-start-line="33" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/pages/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="63" column="79" selection-start-line="63" selection-start-column="79" selection-end-line="63" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/features/search/quickTests/SearchQuickTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/features/search/quickTests/CartQuickTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ElefantTestWebSite/features/search/quickTests/LoginQuickTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="255">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>

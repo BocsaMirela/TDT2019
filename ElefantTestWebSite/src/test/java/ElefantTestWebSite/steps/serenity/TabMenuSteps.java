@@ -1,13 +1,11 @@
 package ElefantTestWebSite.steps.serenity;
 
-import ElefantTestWebSite.pages.LoginPage;
 import ElefantTestWebSite.pages.MainPage;
 import ElefantTestWebSite.pages.TabMenuResultPage;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.annotations.StepGroup;
 import net.thucydides.core.steps.ScenarioSteps;
 import org.hamcrest.Matchers;
-import org.yecht.Data;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 
@@ -23,7 +21,6 @@ public class TabMenuSteps extends ScenarioSteps {
 
     @Step
     public void openSearchResultPage(String searchString) {
-
         String url = "http://www.elefant.ro/list/" + searchString + "?sortsales=desc&filtersex=Femei~~~Unisex";
         tabMenuResultPage.openUrl(url);
     }
@@ -44,7 +41,7 @@ public class TabMenuSteps extends ScenarioSteps {
     }
 
     @StepGroup
-    public void clickMenuSteps(String expanded, String color) {
+    public void clickMenuStepsParfum(String expanded, String color) {
         isTheHomePage();
         clickMenu();
         tabMenuShouldBeExpended(expanded);
@@ -52,11 +49,38 @@ public class TabMenuSteps extends ScenarioSteps {
     }
 
     @StepGroup
-    public void clickTabMenuItemSteps(String title, String contentKey) {
+    public void clickTabMenuItemStepsParfum(String title, String contentKey) {
         mainPage.tabMenuItemApaDeParfumClick();
         openSearchResultPage("cosmetice-si-parfumuri/parfumuri/apa-de-parfum");
         shouldSeeTitle(title);
         shouldSeeTabMenuContent(contentKey);
+    }
+
+    @StepGroup
+    public void clickMenuStepsCarti(String expanded, String color) {
+        isTheHomePage();
+        mainPage.tabMenuCartiClick();
+        tabMenuShouldBeExpended(expanded);
+        tabMenuShouldBeFocused(color);
+    }
+
+    @StepGroup
+    public void clickTabMenuItemStepsCarti(String title, String contentKey) {
+        mainPage.setTabMenuItemCartiFictiuneClick();
+        openSearchResultPage("carti/carte/fictiune");
+        shouldSeeTitle(title);
+        shouldSeeTabMenuContent(contentKey);
+    }
+    @Step
+    public void clickBetweenTabs() {
+        isTheHomePage();
+//        mainPage.clickbetweenTabs();
+        mainPage.clickRightTabs();
+    }
+
+    @Step
+    public void clickBetweenTabsAsert() {
+        assertThat(mainPage.getExpandableTabMenus(), Matchers.is(false));
     }
 
     @Step
@@ -77,5 +101,12 @@ public class TabMenuSteps extends ScenarioSteps {
     @Step
     public void shouldSeeTabMenuContent(String title) {
         assertThat(tabMenuResultPage.getTabMenuContent(), Matchers.everyItem(Matchers.containsString(title)));
+    }
+
+    public String clickFirstElementParfum() {
+        return tabMenuResultPage.clickOneElementParfum();
+    }
+    public String clickFirstElementCarti() {
+        return tabMenuResultPage.clickOneElementCarti();
     }
 }

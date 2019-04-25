@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="ElefantTestWebSite.features.search.quickTests.TabMenuQuickTests" skipped="0" tests="2" time="33.34" timestamp="2019-04-21T22:19:24.621146500+03:00[Europe/Athens]"><testcase classname="ElefantTestWebSite.features.search.quickTests.TabMenuQuickTests" name="Observe ui when tab clicked"/><testcase classname="ElefantTestWebSite.features.search.quickTests.TabMenuQuickTests" name="Repeat click tab menu and item"><failure message="&#10;Expected: a string containing &quot;rgba(255, 255, 255, 1)&quot;&#10;     but: was &quot;rgba(238, 238, 238, 1)&quot;" type="java.lang.AssertionError">
-Expected: a string containing "rgba(255, 255, 255, 1)"
-     but: was "rgba(238, 238, 238, 1)"</failure><system-err>
-Expected: a string containing "rgba(255, 255, 255, 1)"
-     but: was "rgba(238, 238, 238, 1)"&#13;
-ElefantTestWebSite.steps.serenity.TabMenuSteps.tabMenuShouldBeFocused(TabMenuSteps.java:69)&#13;
-ElefantTestWebSite.steps.serenity.TabMenuSteps.clickMenuSteps(TabMenuSteps.java:51)&#13;
-ElefantTestWebSite.features.search.quickTests.TabMenuQuickTests.repeatClickTabMenuAndItem(TabMenuQuickTests.java:30)&#13;
-java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
-java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
-java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="ElefantTestWebSite.features.search.quickTests.TabMenuQuickTests" skipped="0" tests="2" time="264.69" timestamp="2019-04-24T23:03:54.517312300+03:00[Europe/Athens]"><testcase classname="ElefantTestWebSite.features.search.quickTests.TabMenuQuickTests" name="Observe ui when tab clicked"/><testcase classname="ElefantTestWebSite.features.search.quickTests.TabMenuQuickTests" name="Repeat click tab menu and item"/></testsuite>

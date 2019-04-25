@@ -1,6 +1,7 @@
 package ElefantTestWebSite.steps.serenity;
 
 import ElefantTestWebSite.pages.LoginPage;
+import ElefantTestWebSite.pages.MainPage;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.annotations.StepGroup;
 import net.thucydides.core.steps.ScenarioSteps;
@@ -13,6 +14,8 @@ public class LoginSteps extends ScenarioSteps {
     private static final String RED_BORDER_COLOR = "rgb(169, 68, 66)";
 
     LoginPage loginPage;
+    MainPage mainPage;
+
 
     @Step
     public void navigateTo(String url) {
@@ -54,6 +57,24 @@ public class LoginSteps extends ScenarioSteps {
     @Step
     public void shouldEmailBeRead() {
         assertThat(loginPage.getEmailBorderColor().toLowerCase(), Matchers.containsString(RED_BORDER_COLOR));
+    }
+
+    @Step
+    public void shouldErrorBeDisplayed(String errorMessage) {
+        assertThat(loginPage.getInvalidAccountMessage().toLowerCase(), Matchers.containsString(errorMessage.toLowerCase()));
+    }
+    @Step
+    public void shouldErrorEmailBeDisplayed(String errorMessage) {
+        assertThat(loginPage.getInvalidEmailMessage().toLowerCase(), Matchers.containsString(errorMessage.toLowerCase()));
+    }
+    @Step
+    public void shouldErrorPAssBeDisplayed(String errorMessage) {
+        assertThat(loginPage.getInvalidPasswordMessage().toLowerCase(), Matchers.containsString(errorMessage.toLowerCase()));
+    }
+
+    @Step
+    public void shouldBeLogged(String username) {
+        assertThat(mainPage.getUsername().toLowerCase(), Matchers.containsString(username.toLowerCase()));
     }
 
     @Step

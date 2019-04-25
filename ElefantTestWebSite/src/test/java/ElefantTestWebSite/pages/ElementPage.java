@@ -17,6 +17,19 @@ public class ElementPage extends PageObject {
         addToCartButton.click();
     }
 
+    public void addToCartButtonClickTwice(){
+        ((JavascriptExecutor) getDriver()).executeScript("window.scrollBy(0,400)");
+        addToCartButton.click();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        WebElementFacade webElementFacade =find(By.cssSelector("body > div.container > div > div:nth-child(2) > div > div.product-info > div:nth-child(8) > div"));
+        webElementFacade.click();
+
+    }
+
     public String getElementImageURL() {
         WebElementFacade webElement = find(By.cssSelector("#main_comanda > div:nth-child(2) > div > div > div.checkout-image > a"));
         return webElement.getAttribute("href");

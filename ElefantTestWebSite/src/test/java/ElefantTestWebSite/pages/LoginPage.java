@@ -49,4 +49,14 @@ public class LoginPage extends PageObject {
         WebElementFacade webElement = find(By.cssSelector("div[class='col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 errors']"));
         return webElement.getText();
     }
+
+    public String getInvalidPasswordMessage() {
+        WebElementFacade webElement = find(By.id("login_password-error"));
+        return webElement.getText();
+    }
+
+    public String getInvalidEmailMessage() {
+        WebElementFacade webElement = find(By.id("login_username-error"));
+        return webElement.getText();
+    }
 }

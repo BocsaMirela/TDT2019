@@ -4,6 +4,7 @@ import ElefantTestWebSite.pages.MainPage;
 import ElefantTestWebSite.pages.SearchResultPage;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
+import org.hamcrest.Matcher;
 import org.hamcrest.Matchers;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -19,8 +20,14 @@ public class SearchSteps extends ScenarioSteps {
     }
 
     @Step
-    public void openSearchResultPage(String searchString) {
+    public String openSearchResultPage(String searchString) {
         String url = "http://www.elefant.ro/search?query=" + searchString;
+        searchResultPage.openUrl(url);
+        return url;
+    }
+
+    @Step
+    public void openSearchResultPageFromUrl(String url) {
         searchResultPage.openUrl(url);
     }
 
@@ -30,18 +37,26 @@ public class SearchSteps extends ScenarioSteps {
     }
 
     @Step
+    public String clickFirstElement() {
+         return searchResultPage.clickOneElement();
+    }
+
+    @Step
     public void startsSearch() {
         mainPage.searchButtonClick();
     }
 
     @Step
     public void shouldSeeTitle(String title) {
-        assertThat(searchResultPage.getTitle(), Matchers.containsString(title));
+        assertThat(searchResultPage.getTitle().toLowerCase(), Matchers.containsString(title.toLowerCase()));
     }
 
     @Step
-    public void shouldSeeSearchContent(String title) {
-        assertThat(searchResultPage.getSearchContent(), Matchers.everyItem(Matchers.containsString(title)));
+    public void shouldSeeSearchContent(String t1,String s2, String s3) {
+        assertThat(searchResultPage.getSearchContentTitle(),
+                Matchers.either(Matchers.everyItem(Matchers.containsString(t1.toLowerCase())))
+                .or(Matchers.everyItem(Matchers.containsString(s2.toLowerCase()))).
+                        or(Matchers.everyItem(Matchers.containsString(s3.toLowerCase()))));
     }
 
     @Step
@@ -66,5 +81,15 @@ public class SearchSteps extends ScenarioSteps {
         enters(term);
         startsSearch();
         openSearchResultPage(term);
+    }
+    @Step
+    public String looksForUrl(String term) {
+        enters(term);
+        startsSearch();
+        return openSearchResultPage(term);
+    }
+
+    public String clickAnotherElement() {
+        return searchResultPage.clickAnotherElement();
     }
 }

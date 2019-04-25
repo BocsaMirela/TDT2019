@@ -2,7 +2,6 @@ package ElefantTestWebSite.features.search.quickTests;
 
 import ElefantTestWebSite.steps.serenity.TabMenuSteps;
 import net.serenitybdd.junit.runners.SerenityRunner;
-import net.thucydides.core.annotations.Issue;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
 import org.junit.Test;
@@ -21,14 +20,14 @@ public class TabMenuQuickTests {
 
     @Test
     public void observeUiWhenTabClicked() {
-       tabMenuSteps.clickMenuSteps("true",WHILE_COLOR);
+       tabMenuSteps.clickMenuStepsParfum("true",WHILE_COLOR);
     }
 
     @Test
     public void repeatClickTabMenuAndItem() {
         for (int i = 0; i < 2; i++) {
-            tabMenuSteps.clickMenuSteps("true",WHILE_COLOR);
-            tabMenuSteps.clickTabMenuItemSteps("Cosmetice si Parfumuri > Apa de parfum", "Apa de parfum");
+            tabMenuSteps.clickMenuStepsParfum("true",WHILE_COLOR);
+            tabMenuSteps.clickTabMenuItemStepsParfum("Cosmetice si Parfumuri > Apa de parfum", "Apa de parfum");
         }
     }
 } 

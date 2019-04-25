@@ -33,6 +33,11 @@ public class AddToCartSteps extends ScenarioSteps {
     }
 
     @Step
+    public void openElementPageFromUrl(String url) {
+        elementPage.openUrl(url);
+    }
+
+    @Step
     public void navigateTo(String url) {
         getDriver().navigate().to(url);
     }
@@ -76,5 +81,10 @@ public class AddToCartSteps extends ScenarioSteps {
         assertThat(elementPage.getElementBrand().toLowerCase(), Matchers.containsString(brand.toLowerCase()));
         assertThat(elementPage.getElementTitle().toLowerCase(), Matchers.containsString(description.toLowerCase()));
         assertThat(elementPage.getElementMoneyType().toLowerCase(), Matchers.containsString(money.toLowerCase()));
+    }
+
+    public void clickTwice(String searchQuery) {
+        openElementPage(searchQuery);
+        elementPage.addToCartButtonClickTwice();
     }
 }

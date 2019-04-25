@@ -20,21 +20,21 @@ public class LoginQuickTests {
     public LoginSteps loginSteps;
 
     @Test
-    public void searchingByEmptyString() {
+    public void loginWithEmptyString() {
         loginSteps.isLoginPage();
         loginSteps.loginSteps("bocsa_mirela@yahoo.com","");
         loginSteps.shouldPasswordBeRead();
     }
 
     @Test
-    public void searchingByInvalidEmail() {
+    public void loginWithInvalidEmail() {
         loginSteps.isLoginPage();
         loginSteps.loginSteps("bocsa_mi","secret");
         loginSteps.shouldEmailBeRead();
     }
 
     @Test
-    public void searchingByInvalidAccount() {
+    public void loginWithInvalidAccount() {
         loginSteps.isLoginPage();
         loginSteps.loginSteps("bocsa_mirela@yahoo.com","secret");
         loginSteps.shouldShowInvalidEmailOrPass("Email-ul si/sau parola introduse sunt gresite.");

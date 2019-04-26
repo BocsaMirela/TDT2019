@@ -1,4 +1,4 @@
-package ElefantTestWebSite.features.search.functionTourTests;
+package ElefantTestWebSite.features.search.specificationsTests;
 
 import ElefantTestWebSite.steps.serenity.SearchSteps;
 import net.serenitybdd.junit.runners.SerenityRunner;
@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
 @RunWith(SerenityRunner.class)
-public class SearchFunctionTourTests {
+public class SearchSpecTests {
 
     @Managed(uniqueSession = true)
     public WebDriver webdriver;
@@ -39,8 +39,9 @@ public class SearchFunctionTourTests {
     public void searchStringWithLength1() {
         searchSteps.isTheHomePage();
         searchSteps.looks_for("c");
-        searchSteps.shouldSeeTitle("Rezultate pentru "+"\"c" );
-        searchSteps.shouldSeeSearchContent("c","c","c");
+//        searchSteps.shouldSeeTitle("Rezultate pentru "+"\"c" );
+//        searchSteps.shouldSeeSearchContent("c","c","c");
+        searchSteps.shouldBeMainPage("Și ce mai citim?", "îmbogățește-ți colecția");
     }
 
     @Test

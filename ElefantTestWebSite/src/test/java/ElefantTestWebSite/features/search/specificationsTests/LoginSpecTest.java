@@ -1,4 +1,4 @@
-package ElefantTestWebSite.features.search.functionTourTests;
+package ElefantTestWebSite.features.search.specificationsTests;
 
 import ElefantTestWebSite.steps.serenity.LoginSteps;
 import net.serenitybdd.junit.runners.SerenityRunner;
@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
 @RunWith(SerenityRunner.class)
-public class LoginFunctionTourTests {
+public class LoginSpecTest {
 
     @Managed(uniqueSession = true)
     public WebDriver webdriver;

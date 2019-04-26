@@ -37,6 +37,8 @@ public class LoginQuickTests {
     public void loginWithInvalidAccount() {
         loginSteps.isLoginPage();
         loginSteps.loginSteps("bocsa_mirela@yahoo.com","secret");
+        loginSteps.shouldPasswordBeRead();
+        loginSteps.shouldEmailBeRead();
         loginSteps.shouldShowInvalidEmailOrPass("Email-ul si/sau parola introduse sunt gresite.");
     }
 

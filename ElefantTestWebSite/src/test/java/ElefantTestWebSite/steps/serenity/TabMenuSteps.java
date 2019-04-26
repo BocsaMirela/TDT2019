@@ -71,6 +71,7 @@ public class TabMenuSteps extends ScenarioSteps {
         shouldSeeTitle(title);
         shouldSeeTabMenuContent(contentKey);
     }
+
     @Step
     public void clickBetweenTabs() {
         isTheHomePage();
@@ -79,7 +80,7 @@ public class TabMenuSteps extends ScenarioSteps {
     }
 
     @Step
-    public void clickBetweenTabsAsert() {
+    public void clickBetweenTabsAssert() {
         assertThat(mainPage.getExpandableTabMenus(), Matchers.is(false));
     }
 
@@ -106,7 +107,15 @@ public class TabMenuSteps extends ScenarioSteps {
     public String clickFirstElementParfum() {
         return tabMenuResultPage.clickOneElementParfum();
     }
+
     public String clickFirstElementCarti() {
         return tabMenuResultPage.clickOneElementCarti();
+    }
+
+    public void shouldBeClearlyDescriptive() {
+
+    }
+
+    public void shouldLookLikeClickableVersions() {
     }
 }

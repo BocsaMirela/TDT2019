@@ -34,14 +34,14 @@ public class TabMenuScenarioTests {
     @Test
     public void loginScenarioTest() {
         searchSteps.isTheHomePage();
-//        tabMenuSteps.clickMenuStepsParfum("true",WHILE_COLOR);
+        tabMenuSteps.clickMenuStepsParfum("true",WHILE_COLOR);
         tabMenuSteps.clickTabMenuItemStepsParfum("Cosmetice si Parfumuri > Apa de parfum", "Apa de parfum");
         String url=tabMenuSteps.clickFirstElementParfum();
         addToCartSteps.openElementPageFromUrl(url);
         addToCartSteps.addToCartButtonClick();
 
         searchSteps.isTheHomePage();
-//        tabMenuSteps.clickMenuStepsCarti("true",WHILE_COLOR);
+        tabMenuSteps.clickMenuStepsCarti("true",WHILE_COLOR);
         tabMenuSteps.clickTabMenuItemStepsCarti("Carti > Fictiune", "c");
 
         url=tabMenuSteps.clickFirstElementCarti();

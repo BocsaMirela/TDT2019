@@ -87,4 +87,8 @@ public class AddToCartSteps extends ScenarioSteps {
         openElementPage(searchQuery);
         elementPage.addToCartButtonClickTwice();
     }
+
+    public void shouldDisplayModalWindow() {
+
+    }
 }

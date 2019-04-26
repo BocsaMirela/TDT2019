@@ -1,4 +1,4 @@
-package ElefantTestWebSite.features.search.functionTourTests;
+package ElefantTestWebSite.features.search.specificationsTests;
 
 import ElefantTestWebSite.steps.serenity.TabMenuSteps;
 import net.serenitybdd.junit.runners.SerenityRunner;
@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
 @RunWith(SerenityRunner.class)
-public class TabMenuFunctionTourTests {
+public class TabMenuSpecTests {
 
     private static final String WHILE_COLOR = "rgba(255, 255, 255, 1)";
     @Managed(uniqueSession = true)
@@ -21,6 +21,8 @@ public class TabMenuFunctionTourTests {
     @Test
     public void clickOnTabWIthNoName() {
         tabMenuSteps.clickBetweenTabs();
+        tabMenuSteps.shouldBeClearlyDescriptive();
+        tabMenuSteps.shouldLookLikeClickableVersions();
         tabMenuSteps.clickBetweenTabsAssert();
     }
 
